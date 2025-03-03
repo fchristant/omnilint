@@ -1,0 +1,23 @@
+{
+  "name": "eslinttest",
+  "version": "1.0.0",
+  "description": "testing linting of multiple languages",
+  "main": "index.js",
+  "author": "Ferdy Christant",
+  "license": "ISC",
+  "scripts": {
+    "lint js": "npx eslint **/*.js",
+    "lint css": "npx eslint **/*.css",
+    "lint json": "npx eslint **/*.json",
+    "lint markdown": "npx eslint **/*.md",
+    "lint all": "npx eslint **/*.{js,css,json,md}"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.4.0",
+    "@eslint/js": "^9.21.0",
+    "@eslint/json": "^0.10.0",
+    "@eslint/markdown": "^6.2.2",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
+}

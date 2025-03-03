@@ -1,0 +1,5 @@
+{
+  "name": "John",
+  "name": "Also John",
+  "description": "eslint should complain about the duplicate key"
+}
