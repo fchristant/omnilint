@@ -8,7 +8,7 @@ Test files that have intentional violations to test linting are in the _src_ dir
 
 When you have the ESLint extension installed in VS Code, the linting violations will show in the _Problems_ tab.
 
-![image showing ESlint errors in the problem panel](img/problems.png)
+![image showing ESlint errors in the problem panel](img/eslint-problems.png)
 
 Alternatively, you can run linting in the CLI via the following scripts:
 
