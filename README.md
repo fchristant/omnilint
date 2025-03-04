@@ -24,7 +24,7 @@ Alternatively, you can run linting in the CLI via the following scripts:
 The project also contains a stylelint setup so that CSS linting can be done both via ESlint and Stylelint. Two custom rules have been implemented on top of the recommended ones:
 
 - Only allow for logical properties, so not rules like 'margin-left'
-- Disallow usage of Tailwind.
+- Disallow usage of Tailwind (😈).
 
 Stylelint violations will be visible in the _Problems_ tab when the Stylelint extension is installed:
 
