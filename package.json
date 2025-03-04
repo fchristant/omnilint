@@ -9,13 +9,17 @@
     "lint js": "npx eslint src/**/*.js",
     "lint css": "npx eslint src/**/*.css",
     "lint json": "npx eslint src/**/*.json",
-    "lint all": "npx eslint src/**/*.{js,css,json}"
+    "lint all": "npx eslint src/**/*.{js,css,json}",
+    "stylelint": "npx stylelint src/**/*.css"
   },
   "devDependencies": {
     "@eslint/css": "^0.4.0",
     "@eslint/js": "^9.21.0",
     "@eslint/json": "^0.10.0",
     "eslint": "^9.21.0",
-    "globals": "^16.0.0"
+    "globals": "^16.0.0",
+    "stylelint": "^16.15.0",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-use-logical": "^2.1.2"
   }
 }
